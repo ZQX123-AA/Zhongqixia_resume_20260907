@@ -4,15 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        /* 标签选择器 */
+        h1{
+            background-color: aqua;
+        }
+
+        .contact{
+            font-size: 10px;
+            font-weight: hold;
+            color: green;
+        }
+
+        #lumu{
+            font-size: 15px;
+            text-align: center;
+            color: black;
+        }
+
+    </style>
+    <!-- 链入式引入css -->
+    <link rel="stylesheet" href="css01.css">
+    <script> 
+        console.log('我是钟启霞');
+    </script>
+    <script src="j01.js">11</script>
 </head>
+
 <body>
-    <h1>zqx</h1>
+    <!-- 行内式引入CSS -->
+    <h1 style="color: #ffccd5;text-align: center;background-color:#aee4ff;">钟启霞</h1>
+    <img src="C:\Users\J3-211\Desktop\111\Zhongqixia_resume_20260907\_cgi-bin_mmwebwx-bin_webwxgetmsgimg__&MsgID=640680093225493214&skey=@crypt_26672401_d4193cbafbfd2531dc9ba145696d5b61&mmweb_appid=wx_webfilehelper.jfif" alt=">_0">
     <!-- css内嵌 -->
+    <p class="contact">邮箱：2786834240@qq.com 电话：13828782313</p>
+    <!-- 行内式引入javascript -->
+    <a href="javascript:alert('github地址：https://github.com/ZQX123-AA/Zhongqixia_resume_20260907.git')">欢迎来到我的github地址0w0</a>
     <p style="color: red;">家乡：广东</p>
-    <div style="font-weight: bolder;">爱好：散步</div>
-    技能：html5,css3,java
-    项目：教学平台开发
+    <div style="font-weight: bolder;background-color: #aee4ff;">爱好：散步,看剧看番磕cp</div>
     <br>
-    竞赛：软件杯，蓝桥杯，数学建模，职业技能竞赛
+    <!-- 嵌入式引用CSS -->
+    <div>技能：html5，css5,javascript</div>
+    <div>项目：教学平台开发</div>
+    <div>竞赛：蓝桥杯</div>
+    <div>经历：2025-2027 广东科学技术职业学院</div>
+    <p id="lumu"> 271199</p>
+
 </body>
 </html>
